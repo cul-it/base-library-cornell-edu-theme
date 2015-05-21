@@ -79,7 +79,7 @@
     <div class="container">
       <div class="row">
         <div class="cornell-logo">
-          <a href="http://www.cornell.edu"><img src="/sites/all/themes/base/img/cornell.gif" alt="Cornell University"></a>
+          <a href="http://www.cornell.edu"><img src="/sites/all/themes/olinuris/img/cornell.gif" alt="Cornell University"></a>
         </div>
         <div class="global-menu">
           <div class="navbar">
