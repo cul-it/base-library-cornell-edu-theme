@@ -8,16 +8,28 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
-regions[navigation]     = 'Navigation'
-regions[header]         = 'Top Bar'
-regions[highlighted]    = 'Highlighted'
+
+regions[global_nav]     = 'Global nav'
+regions[main_nav]     	= 'Main nav'
+regions[mobile_nav]     = 'Mobile nav'
+regions[mobile_search]	= 'Mobile search'
+regions[search]			= 'Search'
+regions[sidebar]		= 'Sidebar'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
-regions[sidebar_first]  = 'Primary'
-regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
+
+; regions[header]         = 'Top Bar'
+; regions[highlighted]    = 'Highlighted'
+; regions[help]           = 'Help'
+; regions[content]        = 'Content'
+; regions[sidebar_first]  = 'Primary'
+; regions[sidebar_second] = 'Secondary'
+; regions[footer]         = 'Footer'
+; regions[page_top]       = 'Page top'
+; regions[page_bottom]    = 'Page bottom'
 
 
 ;;;;;;;;;;;;;;;;;;;;;

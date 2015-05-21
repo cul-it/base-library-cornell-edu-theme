@@ -1,0 +1,149 @@
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+	min-height: 0;
+}
+
+// Mobile search and menu buttons
+// --------------------------------- //
+.navbar-toggle {
+	margin: 0;
+	font-size: 120%;
+}
+
+// Global nav
+// ------------------- //
+.global-menu {
+	@include make-xs-column(8);
+}
+#menu {
+	.navbar-nav {
+		li {
+			font-size: 14px;
+			text-transform: uppercase;
+		}
+		a {
+			color: white;
+			padding: 10px 15px;
+		}
+		a:hover, a:active, a:focus {
+			background: inherit;
+			text-decoration: underline;
+		}
+	}
+}
+
+// Main nav
+// ------------------- //
+nav {
+	background: $dark-gray;
+	background: rgba(34, 34, 34, 0.75);
+	.navbar-nav > li > a {
+		color: white;
+		font-size: 16px;
+		padding: 15px 20px;
+	}
+	.navbar-nav > li > a:hover,
+	.navbar-nav > li > a:active,
+	.navbar-nav > li > a:focus {
+		background: rgba(0, 0, 0, 1);
+		color: white;
+	}
+}
+
+// Mobile nav
+// ------------------- //
+#mobile-nav {
+	background: white;
+	ul {
+		padding: 0 10px;
+	}
+	a {
+		color: $dark-gray;
+		font-size: 14px;
+		border-bottom: 1px solid $pale-gray;
+	}
+	.navbar-nav {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+// Sidebar nav
+// ------------------- //
+.sidebar {
+	.block-title {
+		margin: 0;
+		padding: 0 0 .5em 0;
+		font-size: 14px;
+		text-transform: uppercase;
+		color: $medium-gray;
+		border-bottom: 2px solid $pale-gray;
+	}
+	.nav > li {
+		padding: 8px 0;
+		font-size: 14px;
+	}
+	.nav > li > a {
+		padding: 0;
+		border-bottom: 0;
+	}
+	.nav > li > a:hover,
+	.nav > li > a:active,
+	.nav > li > a:focus {
+		background: inherit;
+	}
+	.nav {
+		margin-top: 1em;
+		i {
+			margin-right: .4em;
+			// font-size: 14px;
+			color: $footer-gray;
+		}
+	}
+}
+
+
+// MEDIA QUERIES
+// -------------------------
+
+  // /* Extra small devices (phones, up to 480px) */
+  // /* No media query since this is the default in Bootstrap */
+
+  // /* Small devices (tablets, 768px and up) */
+  // @media (min-width: @screen-sm) { ... }
+
+  // /* Medium devices (desktops, 992px and up) */
+  // @media (min-width: @screen-md) { ... }
+
+  // /* Large devices (large desktops, 1200px and up) */
+  // @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) { 
+	#menu {
+		.navbar-nav {
+			float: right;
+		}
+	}
+	nav {
+		margin-top: 8em;
+		.navbar-nav > li > a {
+			font-size: 14px;
+		}
+	}
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+	nav {
+		.navbar-nav > li > a {
+			font-size: 16px;
+		}
+	}
+}
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: $screen-lg) {
+}

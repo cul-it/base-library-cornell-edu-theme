@@ -1,0 +1,79 @@
+// Cornell brand
+// ------------------- //
+
+.cornell-identity {
+	.container {
+		background: $cornell-red;
+	}
+	.cornell-logo {
+		@include make-xs-column(4);
+	}
+	button {
+		i {
+			color: white;
+		}
+	}
+}
+
+// Library brand
+// ------------------- //
+.library-brand {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	@include make-sm-column(8);
+}
+.brand {
+	text-transform: uppercase;
+	font-size: 48px;
+	font-family: $font-family-cul;
+	display: block;
+	color: white;
+	line-height: 1em;
+}
+.brand:hover {
+	color: white;
+	text-decoration: none;
+}
+.cul-brand {
+	color: $pale-gray;
+	font-size: 18px;
+	font-family: $font-family-cul;
+	display: block;
+}
+.cul-brand:hover {
+	color: $pale-gray;
+	text-decoration: none;
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+  // /* Extra small devices (phones, up to 480px) */
+  // /* No media query since this is the default in Bootstrap */
+
+  // /* Small devices (tablets, 768px and up) */
+  // @media (min-width: @screen-sm) { ... }
+
+  // /* Medium devices (desktops, 992px and up) */
+  // @media (min-width: @screen-md) { ... }
+
+  // /* Large devices (large desktops, 1200px and up) */
+  // @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) { 
+	.brand {
+		font-size: 36px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+	.brand {
+		font-size: 48px !important;
+	}
+}
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: $screen-lg) {
+}

@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5635,5 +5637,320 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+body {
+  font-family: "Open Sans", Helvetica, Arials, sans-serif;
+  background: #cbcbcb; }
+
+a {
+  color: #0068ac; }
+
+a:hover {
+  color: black;
+  text-decoration: underline; }
+
+.main-content a,
+footer a {
+  border-bottom: 1px dotted #999; }
+.main-content a:hover,
+.main-content a:active,
+.main-content a:focus,
+footer a:hover,
+footer a:active,
+footer a:focus {
+  border-bottom: 1px solid #999;
+  text-decoration: none; }
+
+p, li {
+  font-size: 16px;
+  line-height: 1.5em; }
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+  margin-bottom: .75em; }
+
+h1 {
+  margin-top: 0; }
+
+h4 {
+  font-size: 20px; }
+
+h5 {
+  font-size: 16px; }
+
+.well {
+  border-radius: 0;
+  box-shadow: none; }
+
+.cornell-identity .container {
+  background: #b31b1b; }
+.cornell-identity .cornell-logo {
+  position: relative;
+  float: left;
+  width: 33.33333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+.cornell-identity button i {
+  color: white; }
+
+.library-brand {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .library-brand {
+      float: left;
+      width: 66.66667%; } }
+
+.brand {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: "Montserrat";
+  display: block;
+  color: white;
+  line-height: 1em; }
+
+.brand:hover {
+  color: white;
+  text-decoration: none; }
+
+.cul-brand {
+  color: #e4e3e3;
+  font-size: 18px;
+  font-family: "Montserrat";
+  display: block; }
+
+.cul-brand:hover {
+  color: #e4e3e3;
+  text-decoration: none; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .brand {
+    font-size: 36px; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .brand {
+    font-size: 48px !important; } }
+/* Large devices (desktops, 1200px and up) */
+.hero header .container {
+  background: url("../assets/OlinReflectionApr2015.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.main-content {
+  background: white;
+  min-height: 500px;
+  padding: 3em 0; }
+
+.main-text {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .main-text {
+      float: left;
+      width: 66.66667%; } }
+  @media (min-width: 768px) {
+    .main-text {
+      left: 33.33333%; } }
+
+.sidebar {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 3em; }
+  @media (min-width: 768px) {
+    .sidebar {
+      float: left;
+      width: 33.33333%; } }
+  @media (min-width: 992px) {
+    .sidebar {
+      float: left;
+      width: 25%; } }
+  @media (min-width: 768px) {
+    .sidebar {
+      right: 66.66667%; } }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hero {
+    background: url("../assets/OlinReflectionApr2015.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    .hero header .container {
+      background: inherit; }
+
+  .sidebar {
+    margin-top: 0; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (desktops, 1200px and up) */
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  min-height: 0; }
+
+.navbar-toggle {
+  margin: 0;
+  font-size: 120%; }
+
+.global-menu {
+  position: relative;
+  float: left;
+  width: 66.66667%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+#menu .navbar-nav li {
+  font-size: 14px;
+  text-transform: uppercase; }
+#menu .navbar-nav a {
+  color: white;
+  padding: 10px 15px; }
+#menu .navbar-nav a:hover, #menu .navbar-nav a:active, #menu .navbar-nav a:focus {
+  background: inherit;
+  text-decoration: underline; }
+
+nav {
+  background: #222;
+  background: rgba(34, 34, 34, 0.75); }
+  nav .navbar-nav > li > a {
+    color: white;
+    font-size: 16px;
+    padding: 15px 20px; }
+  nav .navbar-nav > li > a:hover,
+  nav .navbar-nav > li > a:active,
+  nav .navbar-nav > li > a:focus {
+    background: black;
+    color: white; }
+
+#mobile-nav {
+  background: white; }
+  #mobile-nav ul {
+    padding: 0 10px; }
+  #mobile-nav a {
+    color: #222;
+    font-size: 14px;
+    border-bottom: 1px solid #e4e3e3; }
+  #mobile-nav .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0; }
+
+.sidebar .block-title {
+  margin: 0;
+  padding: 0 0 .5em 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #666;
+  border-bottom: 2px solid #e4e3e3; }
+.sidebar .nav > li {
+  padding: 8px 0;
+  font-size: 14px; }
+.sidebar .nav > li > a {
+  padding: 0;
+  border-bottom: 0; }
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li > a:active,
+.sidebar .nav > li > a:focus {
+  background: inherit; }
+.sidebar .nav {
+  margin-top: 1em; }
+  .sidebar .nav i {
+    margin-right: .4em;
+    color: #cbcbcb; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #menu .navbar-nav {
+    float: right; }
+
+  nav {
+    margin-top: 8em; }
+    nav .navbar-nav > li > a {
+      font-size: 14px; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  nav .navbar-nav > li > a {
+    font-size: 16px; } }
+/* Large devices (desktops, 1200px and up) */
+.header-search {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 4em; }
+  @media (min-width: 768px) {
+    .header-search {
+      float: left;
+      width: 33.33333%; } }
+  .header-search form {
+    float: right;
+    width: 90%; }
+  .header-search input {
+    opacity: .9;
+    width: 100% !important; }
+  .header-search .form-group {
+    width: 80%; }
+
+.btn-search {
+  background: inherit; }
+  .btn-search i {
+    color: #b31b1b;
+    font-size: 24px; }
+
+#mobile-search form {
+  padding: 5px; }
+#mobile-search .form-group {
+  width: 80%;
+  float: left;
+  margin-bottom: 0; }
+#mobile-search .btn-search i {
+  font-size: 18px; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .header-search .form-group {
+    width: 70%; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .brand {
+    font-size: 36px; }
+
+  .header-search .form-group {
+    width: 80%; } }
+/* Large devices (desktops, 1200px and up) */
+footer {
+  padding: 2em 0; }
+  footer .nav {
+    margin-bottom: 1em; }
+  footer .nav > li {
+    float: left;
+    padding: 0 15px;
+    border-left: 1px solid #222; }
+  footer .nav > li:first-child {
+    padding-left: 0;
+    border: none; }
+  footer .nav > li > a {
+    padding: 0; }
+  footer .nav > li > a:hover,
+  footer .nav > li > a:active,
+  footer .nav > li > a:focus {
+    background: inherit;
+    text-decoration: underline; }
+  footer p, footer li {
+    font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */

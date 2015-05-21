@@ -4,14 +4,11 @@
 // Font Awesome
 // @import 'font-awesome/font-awesome';
 
-// Override necessary Bootstrap variables
-// @import 'cul/variables';
 
-// @import 'etc';
-
-// @import "etc/variables";
-// @import "etc/base";
-// @import "etc/cornell-brand";
-// @import "etc/layout";
-// @import "etc/navigation";
-// @import "etc/miscellaneous";
+@import 'base/variables';
+@import 'base/base';
+@import 'base/header';
+@import 'base/layout';
+@import 'base/nav';
+@import 'base/search';
+@import 'base/footer';

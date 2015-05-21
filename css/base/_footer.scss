@@ -1,0 +1,27 @@
+footer {
+	padding: 2em 0;
+	.nav {
+		margin-bottom: 1em;
+	}
+	.nav > li {
+		float: left;
+		padding: 0 15px;
+		border-left: 1px solid $dark-gray;
+	}
+	.nav > li:first-child {
+		padding-left: 0;
+		border: none;
+	}
+	.nav > li > a {
+		padding: 0;
+	}
+	.nav > li > a:hover,
+	.nav > li > a:active,
+	.nav > li > a:focus {
+		background: inherit;
+		text-decoration: underline;
+	}
+	p, li {
+		font-size: 14px;
+	}
+}
