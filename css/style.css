@@ -5785,7 +5785,7 @@ h5 {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {
-    background: url("../assets/OlinReflectionApr2015.jpg") no-repeat;
+    background: url("../img/OlinReflectionApr2015.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
