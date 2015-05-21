@@ -93,7 +93,7 @@
                 <i class="fa fa-search"></i>
               </button>
             </div>
-            <?php if (!empty($global_nav)): ?>
+            <?php if (!empty($page['global_nav'])): ?>
               <div class="collapse navbar-collapse hidden-xs" id="menu">
                 <?php print render($page['global_nav']); ?>
                 <!-- <ul class="nav navbar-nav main-nav">
@@ -110,7 +110,7 @@
     </div>
   </div>
   <header>
-    <?php if (!empty($mobile_nav)): ?>
+    <?php if (!empty($page['mobile_nav'])): ?>
       <div id="mobile-nav" class="collapse">
         <?php print render($page['mobile_nav']); ?>
           <!-- <ul class="nav navbar-nav main-nav">
@@ -128,7 +128,7 @@
       </div>
     <?php endif; ?>
     
-    <?php if (!empty($mobile_search)): ?>
+    <?php if (!empty($page['mobile_search'])): ?>
       <div id="mobile-search" class="collapse">
         <?php print render($page['mobile_search']); ?>
         <!-- <form class="form-inline clearfix">
@@ -151,7 +151,7 @@
             <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
           <?php endif; ?>
         </div>
-        <?php if (!empty($search)): ?>
+        <?php if (!empty($page['search'])): ?>
           <div class="header-search hidden-xs">
             <?php print render($page['search']); ?>
             <!-- <form class="form-inline">
@@ -169,7 +169,7 @@
       </div>
     </div>
   </header>
-  <?php if (!empty($main_nav)): ?>
+  <?php if (!empty($page['main_nav'])): ?>
     <nav class="navbar hidden-xs">
       <div class="container">
         <?php print render($page['main_nav']); ?>
