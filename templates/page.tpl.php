@@ -172,15 +172,17 @@
   <?php if (!empty($page['main_nav'])): ?>
     <nav class="navbar hidden-xs">
       <div class="container">
-        <?php print render($page['main_nav']); ?>
-        <!-- <ul class="nav navbar-nav">
-          <li><a href="/sub">Menu item</a></li>
-          <li><a href="/sub">Menu item</a></li>
-          <li><a href="/sub">Menu item</a></li>
-          <li><a href="/sub">Menu item</a></li>
-          <li><a href="/sub">Menu item</a></li>
-          <li><a href="/sub">Menu item</a></li>
-        </ul> -->
+        <div class="navbar-nav">
+          <?php print render($page['main_nav']); ?>
+          <!-- <ul class="nav navbar-nav">
+            <li><a href="/sub">Menu item</a></li>
+            <li><a href="/sub">Menu item</a></li>
+            <li><a href="/sub">Menu item</a></li>
+            <li><a href="/sub">Menu item</a></li>
+            <li><a href="/sub">Menu item</a></li>
+            <li><a href="/sub">Menu item</a></li>
+          </ul> -->
+        </div>
       </div>
     </nav>
   <?php endif; ?>
