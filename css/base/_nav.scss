@@ -38,14 +38,14 @@
 nav {
 	background: $dark-gray;
 	background: rgba(34, 34, 34, 0.75);
-	.navbar-nav > li > a {
+	.nav > li > a {
 		color: white;
 		font-size: 16px;
 		padding: 15px 20px;
 	}
-	.navbar-nav > li > a:hover,
-	.navbar-nav > li > a:active,
-	.navbar-nav > li > a:focus {
+	.nav > li > a:hover,
+	.nav > li > a:active,
+	.nav > li > a:focus {
 		background: rgba(0, 0, 0, 1);
 		color: white;
 	}
