@@ -7632,8 +7632,6 @@ nav {
 
 #mobile-nav {
   background: white; }
-  #mobile-nav ul {
-    padding: 0 10px; }
   #mobile-nav a {
     color: #222;
     font-size: 14px;
@@ -7742,7 +7740,7 @@ footer {
   footer .nav > li > a:active,
   footer .nav > li > a:focus {
     background: inherit;
-    text-decoration: underline; }
+    text-decoration: none; }
   footer p, footer li {
     font-size: 14px; }
 
