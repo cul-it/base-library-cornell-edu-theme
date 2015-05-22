@@ -5876,7 +5876,7 @@ nav {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  #menu .navbar-nav {
+  #menu .nav {
     float: right; }
 
   nav {
