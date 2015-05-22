@@ -5827,15 +5827,17 @@ h5 {
 nav {
   background: #222;
   background: rgba(34, 34, 34, 0.75); }
-  nav .nav li a {
-    color: white;
-    font-size: 16px;
-    padding: 15px 20px; }
-  nav .nav li a:hover,
-  nav .nav li a:active,
-  nav .nav li a:focus {
-    background: black;
-    color: white; }
+  nav .nav li {
+    float: left; }
+    nav .nav li a {
+      color: white;
+      font-size: 16px;
+      padding: 15px 20px; }
+    nav .nav li a:hover,
+    nav .nav li a:active,
+    nav .nav li a:focus {
+      background: black;
+      color: white; }
 
 #mobile-nav {
   background: white; }
