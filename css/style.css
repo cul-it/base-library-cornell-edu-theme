@@ -5814,13 +5814,13 @@ h5 {
   padding-left: 15px;
   padding-right: 15px; }
 
-#menu .navbar-nav li {
+#menu .nav li {
   font-size: 14px;
   text-transform: uppercase; }
-#menu .navbar-nav a {
+#menu .nav a {
   color: white;
   padding: 10px 15px; }
-#menu .navbar-nav a:hover, #menu .navbar-nav a:active, #menu .navbar-nav a:focus {
+#menu .nav a:hover, #menu .nav a:active, #menu .nav a:focus {
   background: inherit;
   text-decoration: underline; }
 
