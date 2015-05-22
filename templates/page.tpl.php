@@ -223,7 +223,7 @@
           </ul> -->
         </div>
       </div>
-    <?php else; ?>
+    <?php else: ?>
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
