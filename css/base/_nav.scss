@@ -80,8 +80,11 @@ nav {
 		padding: 0 0 .5em 0;
 		font-size: 14px;
 		text-transform: uppercase;
-		color: $medium-gray;
 		border-bottom: 2px solid $pale-gray;
+		a {
+			color: $medium-gray;
+			border: none;
+		}
 	}
 	.nav > li {
 		padding: 8px 0;

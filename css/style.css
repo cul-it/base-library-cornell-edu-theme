@@ -7645,8 +7645,10 @@ nav {
   padding: 0 0 .5em 0;
   font-size: 14px;
   text-transform: uppercase;
-  color: #666;
   border-bottom: 2px solid #e4e3e3; }
+  .sidebar .block-title a {
+    color: #666;
+    border: none; }
 .sidebar .nav > li {
   padding: 8px 0;
   font-size: 14px; }
