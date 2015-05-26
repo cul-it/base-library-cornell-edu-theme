@@ -99,11 +99,11 @@ nav {
 	.nav > li {
 		padding: 8px 0;
 		font-size: 14px;
-		display: inline-block; // need this so the link text displays inline with menu icon
 	}
 	.nav > li > a {
 		padding: 0;
 		border-bottom: 0;
+		display: inline-block; // need this so the link text displays inline with menu icon
 	}
 	.nav > li > a:hover,
 	.nav > li > a:active,

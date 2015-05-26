@@ -7673,11 +7673,11 @@ nav {
     border: none; }
 .sidebar .nav > li {
   padding: 8px 0;
-  font-size: 14px;
-  display: inline-block; }
+  font-size: 14px; }
 .sidebar .nav > li > a {
   padding: 0;
-  border-bottom: 0; }
+  border-bottom: 0;
+  display: inline-block; }
 .sidebar .nav > li > a:hover,
 .sidebar .nav > li > a:active,
 .sidebar .nav > li > a:focus {
