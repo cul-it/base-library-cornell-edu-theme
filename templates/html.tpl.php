@@ -69,7 +69,7 @@
   <?php print $page_bottom; ?>
   <script>
     jQuery(document).ready(function() { 
-      $( '.cul-icon-chevron' ).after( '<i class="fa fa-chevron-right"></i>' );
+      jQuery( '.cul-icon-chevron' ).after( '<i class="fa fa-chevron-right"></i>' );
     });
   </script>
 </body>
