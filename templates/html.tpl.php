@@ -67,5 +67,10 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+  <script>
+    jQuery(document).ready(function() { 
+      $( '.cul-chevron-right' ).after( '<i class="fa fa-chevron-right"></i>' );
+    </script>
+  </script>
 </body>
 </html>
