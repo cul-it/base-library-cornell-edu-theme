@@ -7472,8 +7472,9 @@ h5 {
 
 .breadcrumb {
   padding: 0;
-  background: inherit;
-  font-size: 12px; }
+  background: inherit; }
+  .breadcrumb li {
+    font-size: 12px; }
 
 .cornell-identity .container {
   background: #b31b1b; }
