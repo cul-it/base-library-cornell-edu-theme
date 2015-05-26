@@ -7587,6 +7587,9 @@ body.admin-menu {
 #admin-menu li {
   font-size: 9px; }
 
+.block-simplesamlphp-auth {
+  margin-bottom: 3em; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {
