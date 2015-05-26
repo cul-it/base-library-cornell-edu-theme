@@ -191,9 +191,9 @@
 <div class="main-content">
   <div class="container">
     <?php if (!empty($page['sidebar'])): ?>
+    <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <div class="row"> 
         <div class="main-text">
-          <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
           <?php print render($title_prefix); ?>
           <?php if (!empty($title)): ?>
             <h1><?php print $title; ?></h1>
@@ -227,7 +227,6 @@
         </div>
       </div>
     <?php else: ?>
-      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
         <h1><?php print $title; ?></h1>
