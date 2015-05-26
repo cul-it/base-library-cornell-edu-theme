@@ -7673,7 +7673,8 @@ nav {
     border: none; }
 .sidebar .nav > li {
   padding: 8px 0;
-  font-size: 14px; }
+  font-size: 14px;
+  display: inline-block; }
 .sidebar .nav > li > a {
   padding: 0;
   border-bottom: 0; }
