@@ -7674,6 +7674,9 @@ nav {
   .sidebar .nav i {
     margin-right: .4em;
     color: #cbcbcb; }
+  .sidebar .nav .active li a, .sidebar .nav .active li a:hover, .sidebar .nav .active li a:active, .sidebar .nav .active li a:focus {
+    color: #222;
+    font-weight: 700; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

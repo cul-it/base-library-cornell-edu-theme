@@ -111,6 +111,14 @@ nav {
 			// font-size: 14px;
 			color: $footer-gray;
 		}
+		.active {
+			li {
+				a, a:hover, a:active, a:focus {
+					color: $dark-gray;
+					font-weight: 700;
+				}
+			}
+		}
 	}
 }
 
