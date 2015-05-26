@@ -31,6 +31,11 @@
 			background: inherit;
 			text-decoration: underline;
 		}
+		.active {
+			a, a:hover, a:active, a:focus {
+				font-weight: 700;
+			}
+		}
 	}
 }
 

@@ -7622,6 +7622,8 @@ body.admin-menu {
 #menu .nav a:hover, #menu .nav a:active, #menu .nav a:focus {
   background: inherit;
   text-decoration: underline; }
+#menu .nav .active a, #menu .nav .active a:hover, #menu .nav .active a:active, #menu .nav .active a:focus {
+  font-weight: 700; }
 
 nav {
   background: #222;
