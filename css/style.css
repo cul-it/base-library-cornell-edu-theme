@@ -7755,7 +7755,7 @@ footer {
   footer .nav > li {
     float: left;
     padding: 0 15px;
-    border-left: 1px solid #222; }
+    border-left: 1px solid #999; }
   footer .nav > li:first-child {
     padding-left: 0;
     border: none; }
@@ -7767,6 +7767,6 @@ footer {
     background: inherit;
     text-decoration: none; }
   footer p, footer li {
-    font-size: 14px; }
+    font-size: 13px; }
 
 /*# sourceMappingURL=style.css.map */
