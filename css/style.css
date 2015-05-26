@@ -7429,7 +7429,7 @@ button.close {
 
 body {
   font-family: "Open Sans", Helvetica, Arials, sans-serif;
-  background: #cbcbcb; }
+  background: #e4e3e3; }
 
 a {
   color: #0068ac; }
@@ -7682,7 +7682,7 @@ nav {
   margin-top: 1em; }
   .sidebar .nav i {
     margin-right: .4em;
-    color: #cbcbcb; }
+    color: #e1e1e1; }
   .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
     color: #222;
     font-weight: 700; }
