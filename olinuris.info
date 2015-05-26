@@ -24,7 +24,9 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
-stylesheets[all][] = css/style.css
+; style.css is referenced in html.tpl.php because when it's loaded via @import statement in Drupal, respond.js doesn't work so IE8 users only see the mobile layout
+; see this jira issue for more info: https://issues.library.cornell.edu/browse/CULWEBDEVTEAM-431
+; stylesheets[all][] = css/style.css
 
 ; ;;;;;;;;;;;;;;;;;;;;;
 ; ;; Scripts

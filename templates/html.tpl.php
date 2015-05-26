@@ -52,6 +52,7 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
+  <link href="/sites/all/themes/olinuris/css/style.css" rel="stylesheet">
   <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
