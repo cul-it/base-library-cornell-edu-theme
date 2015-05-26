@@ -7673,7 +7673,10 @@ nav {
   nav {
     margin-top: 8em; }
     nav .navbar-nav > li > a {
-      font-size: 14px; } }
+      font-size: 14px; }
+
+  .front nav {
+    margin-top: 0; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   nav .navbar-nav > li > a {
