@@ -7574,6 +7574,12 @@ h5 {
     .sidebar {
       right: 66.66667%; } }
 
+body.admin-menu {
+  padding-top: 0 !important; }
+
+#admin-menu li {
+  font-size: 12px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {
