@@ -7637,6 +7637,8 @@ nav {
     nav .nav li a:focus {
       background: black;
       color: white; }
+  nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
+    background: black; }
 
 #mobile-nav {
   background: white; }
