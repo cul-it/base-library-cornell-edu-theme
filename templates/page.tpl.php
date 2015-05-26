@@ -195,7 +195,7 @@
         <div class="main-text">
           <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
           <?php print render($title_prefix); ?>
-          <?php if (!empty($title)) && (!drupal_is_front_page()): ?>
+          <?php if (!empty($title)): ?>
             <h1><?php print $title; ?></h1>
           <?php endif; ?>
           <?php print render($title_suffix); ?>
@@ -229,7 +229,7 @@
     <?php else: ?>
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <?php print render($title_prefix); ?>
-      <?php if (!empty($title)) && (!drupal_is_front_page()): ?>
+      <?php if (!empty($title)): ?>
         <h1><?php print $title; ?></h1>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
