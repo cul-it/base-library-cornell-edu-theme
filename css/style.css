@@ -7502,7 +7502,9 @@ h5 {
   color: white;
   line-height: 1em; }
 
-.brand:hover {
+.brand:hover,
+.brand:active,
+.brand-focus {
   color: white;
   text-decoration: none; }
 
@@ -7674,7 +7676,7 @@ nav {
     font-size: 14px; }
 
   .front nav {
-    margin-top: 8; } }
+    margin-top: 8em; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   nav .navbar-nav > li > a {

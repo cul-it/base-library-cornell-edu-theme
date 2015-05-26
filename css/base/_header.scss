@@ -30,7 +30,9 @@
 	color: white;
 	line-height: 1em;
 }
-.brand:hover {
+.brand:hover,
+.brand:active,
+.brand-focus {
 	color: white;
 	text-decoration: none;
 }
