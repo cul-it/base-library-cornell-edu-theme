@@ -7674,7 +7674,7 @@ nav {
   .sidebar .nav i {
     margin-right: .4em;
     color: #cbcbcb; }
-  .sidebar .nav .active li a, .sidebar .nav .active li a:hover, .sidebar .nav .active li a:active, .sidebar .nav .active li a:focus {
+  .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
     color: #222;
     font-weight: 700; }
 
