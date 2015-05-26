@@ -70,7 +70,7 @@
   <script>
     jQuery(document).ready(function() { 
       $( '.cul-icon-chevron' ).after( '<i class="fa fa-chevron-right"></i>' );
-    </script>
+    });
   </script>
 </body>
 </html>
