@@ -7534,17 +7534,16 @@ h5 {
   .brand {
     font-size: 48px !important; } }
 /* Large devices (desktops, 1200px and up) */
-.hero header .container {
-  background: url("../img/OlinReflectionApr2015.jpg") no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+.hero {
+  background: url("../img/hero/1.jpg") no-repeat;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important; }
 
 .main-content {
   background: white;
-  min-height: 500px;
-  padding: 3em 0; }
+  padding: 3em 0 4em 0; }
 
 .main-text {
   position: relative;
@@ -7581,6 +7580,40 @@ h5 {
     .sidebar {
       right: 66.66667%; } }
 
+.home-feature {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 2em; }
+  @media (min-width: 768px) {
+    .home-feature {
+      float: left;
+      width: 33.33333%; } }
+  .home-feature .block-title {
+    font-size: 24px;
+    border-bottom: 2px solid #e4e3e3;
+    padding-bottom: .25em;
+    font-weight: 300; }
+    .home-feature .block-title i {
+      color: #ddd;
+      font-size: 36px; }
+    .home-feature .block-title .fa-wordpress {
+      margin-right: .25em; }
+  .home-feature .fa-ul {
+    margin-left: 1.5em; }
+    .home-feature .fa-ul i {
+      font-size: 12px;
+      color: #999; }
+    .home-feature .fa-ul .fa-li {
+      top: .5em; }
+  .home-feature li {
+    margin-bottom: .25em; }
+
+.search-bar {
+  background: #f5f5f5;
+  padding: 0 0 1em 0; }
+
 body.admin-menu {
   padding-top: 0 !important; }
 
@@ -7592,19 +7625,31 @@ body.admin-menu {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .hero {
-    background: url("../img/OlinReflectionApr2015.jpg") no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
-    .hero header .container {
-      background: inherit; }
+  .hero header .container {
+    background: inherit; }
 
   .sidebar {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .home-feature .block-title {
+    font-size: 18px; }
+    .home-feature .block-title i {
+      font-size: 18px; }
+
+  .search-bar {
+    padding-bottom: 2em; } }
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .home-feature .block-title {
+    font-size: 24px; }
+    .home-feature .block-title i {
+      font-size: 24px; } }
 /* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .home-feature .block-title {
+    font-size: 26px; }
+    .home-feature .block-title i {
+      font-size: 48px; } }
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
@@ -7740,10 +7785,34 @@ nav {
 #mobile-search .btn-search i {
   font-size: 18px; }
 
+.home-search {
+  padding: 1em 0;
+  border: 0; }
+  .home-search .block-title {
+    font-size: 20px;
+    margin-bottom: .5em; }
+  .home-search .form-group {
+    position: relative;
+    float: left;
+    width: 66.66667%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 0; }
+  .home-search .form-control {
+    width: 100%; }
+  .home-search .btn-search {
+    padding: 5px 0; }
+    .home-search .btn-search i {
+      font-size: 32px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .header-search .form-group {
-    width: 70%; } }
+    width: 70%; }
+
+  .home-search {
+    padding-top: 2em; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .brand {
