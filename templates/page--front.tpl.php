@@ -185,7 +185,7 @@
 
 <script type="text/javascript">
   jQuery(document).ready(function() { 
-  var randomImages = ['1','3','4','5','6']; 
+  var randomImages = ['1','3','4','2']; 
   var rndNum = Math.floor(Math.random() * randomImages.length); 
   jQuery(".hero-front").css({ background: "url('/sites/all/themes/catherwood/img/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
 </script>
